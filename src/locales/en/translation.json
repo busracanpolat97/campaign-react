@@ -1,0 +1,27 @@
+{
+  "campaign": {
+    "create": {
+      "title": "Campaign Title",
+      "description": "Campaign Description",
+      "placeholder": {
+        "title": "Please Enter Campaign Title",
+        "description": "Please Enter Campaign Description"
+      }
+    },
+    "title": "Campaign Title",
+    "description": "Campaign Description",
+    "puan": "Puan",
+    "createdDate": "Created Date"
+  },
+  "buttons": {
+    "save-btn": "Save",
+    "create-btn": "Campaign Create"
+  },
+  "notification": {
+    "createSuccess": "Campaign Successfully Created",
+    "updatedSuccess": "Campaign Successfully Updated",
+    "deleteSuccess": "Campaign Successfully Deleted",
+    "loginSuccess": "Login Successfully",
+    "loginError": "Username or password wrong!"
+  }
+}

@@ -1,0 +1,54 @@
+.page-content-container {
+  border-top: 1px soild var(--soft-background-color);
+  background-color: var(--bg-color);
+
+  .page-content {
+    margin: 1rem;
+    background-color: var(--card-bg-color);
+    min-height: 80.3vh;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.2),
+      0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    overflow: hidden;
+  }
+
+  .ant-layout-footer {
+    background-color: var(--bg-color);
+  }
+
+  .page-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    height: 5vh;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+.logo {
+  // display: flex;
+  justify-content: end;
+
+  img {
+    width: 200px;
+    margin-top: 15px;
+  }
+}
+
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #353e54
+}
+.header-logo h3{
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+.header {
+  background-color: #ebf3f7;
+}
